@@ -37,3 +37,31 @@ console.log(typeof myFunction);
 console.log(typeof outsidetemp); // object for null types
 
 // JS is dynamically typed language becuase we dont need to define type of the variable
+
+// /*********************** MEMEORY MGMT ********  */
+
+// STACK for PRIMITIVE
+// A COPY OF VALUE IS RETURN
+
+let myName = "ritesh";
+let anotherName = myName; // A COPY OF value of myName was assignrmd to anotherName
+anotherName = "riteshkhatri";
+console.log(myName);
+console.log(anotherName);
+
+// HEAP  for NON -PRIMITIVE
+// A REFERENCE TO VALUE Is provded
+
+let userOne = { email: "user@email.com", upi: "user1@oksbi" };
+let userTwo = userOne; // A reference pointing to object value in memory is provided
+
+// userOne and userTwo point to same refeence which holds same object in memory
+// BEFORE
+console.log(userOne);
+console.log(userTwo);
+
+userTwo.upi = "user2@okicici";
+// AFTER / BOTH ARE CHANGED
+
+console.log(userOne);
+console.log(userTwo);
