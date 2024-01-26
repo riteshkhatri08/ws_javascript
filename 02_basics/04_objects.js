@@ -54,6 +54,31 @@ console.log(Object.values(regularuser));
 // entries , key value pairs
 console.log(Object.entries(regularuser));
 
-
 // check if an object has  a key
 console.log(instauser.hasOwnProperty("id"));
+
+// ==================================
+
+const course = {
+  coursename: "js in hindi",
+  price: "999",
+  courseInstructor: "Ritesh",
+};
+
+//  ? syntactical sugar , same as course.cousreInstructor
+// THIS IS KNOWN AS DESCTRUCTURING
+// to avoid using "." notation repeatedly
+const { courseInstructor: instructor } = course;
+console.log(instructor);
+
+//ARRAYS can also be destructured
+
+// JSON
+/*
+{
+    name : "ritesh",
+    coursename: "js in hind",
+    price: "free"
+}
+
+*/
