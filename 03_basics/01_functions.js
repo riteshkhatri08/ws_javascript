@@ -40,3 +40,39 @@ function loginUserMessage(username = "John Doe") {
 }
 
 console.log(loginUserMessage("Ritesh"));
+
+/* ======================================= */
+
+// names should be meaning full and should be verbs
+// '...' is called as rest operator when usedbefore method param
+// '...' iscalled spread operator when used before element in array or object
+// ... is used to access multiple 'n' no of values in input param
+function calculateCartPrice(val1, val2, ...morevalues) {
+  return val1;
+}
+
+console.log(calculateCartPrice(200, 400, 500));
+
+// objects in functions
+
+const userobj = {
+  username: "riteshkhatri",
+  cartvalue: 199,
+};
+
+function handleObject(anyobject) {
+  console.log(
+    `Username is ${anyobject.username} and cart value is ${anyobject.carvalue}`
+  );
+}
+handleObject(userobj);
+
+handleObject({ username: "Sam", cartvalue: 399 });
+
+const myArray = [200, 100, 300, 400];
+
+function returnSecondValue(somearray) {
+  return somearray[1];
+}
+
+console.log(returnSecondValue(myArray));
