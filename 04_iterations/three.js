@@ -27,7 +27,7 @@ const newNums3 = mynums.map((num) => num + 10);
 
 console.log(newNums3);
 
-// reduce
+// REDUCE
 /*
 
 const array1 = [1, 2, 3, 4];
