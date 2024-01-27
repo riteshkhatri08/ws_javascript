@@ -1,10 +1,9 @@
 # Projects related to DOM
 
-## project link
 
-## Project 1
+## Project 1 - Color Changer
 
-[Click Here] (https://github.com/riteshkhatri08/ws_javascript/tree/main/06_projects/1-colorChanger)
+[Click Here](https://github.com/riteshkhatri08/ws_javascript/tree/main/06_projects/1-colorChanger)
 
 ## Solution 1
 
