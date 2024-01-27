@@ -16,6 +16,8 @@ span {
   height: 100px;
   border: solid black 2px;
   display: inline-block;
+  size: 20px;
+  font-weight: bolder;
 }
 
 #grey {
@@ -30,4 +32,17 @@ span {
 }
 #yellow {
   background: yellow;
+}
+#purple {
+  background: purple;
+}
+#red {
+  background: red;
+}
+#orange {
+  background: orange;
+}
+
+#cyan {
+  background: cyan;
 }
