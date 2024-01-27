@@ -26,6 +26,7 @@ while (i < 10) {
 }
 
 // do while loop
+let index  = 0;
 do {
   console.log(`dowhile loop index is ${index}`);
   index++;
